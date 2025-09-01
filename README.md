@@ -127,6 +127,9 @@ int main(void)
 
 
 ## Debugging
+- m increases every 2 second and k increases every 1 seconds.
+- 
+<img width="1192" height="871" alt="image" src="https://github.com/user-attachments/assets/fc2a2ea2-762c-40a2-bd5d-b19e637d208f" />
 
 - Use debugger to monitor task counters (`m`, `k` variables)
 - Check `RunPt->name` to see which task is currently running
