@@ -69,6 +69,7 @@ void Task1(void) {
         OS_Sleep(1000);
     }
 }
+
 int k = 0;
 void Task2(void) {
     while(1) {
@@ -113,7 +114,7 @@ int main(void)
   /* USER CODE END 3 */
     OS_Init();
     
-    // Thêm các task
+    // ThÃªm cÃ¡c task
 		//int OS_AddThread(void (*task)(void), uint8_t priority, const char *name);
 		OS_AddThread(Task1,0,"Task1");
 		OS_AddThread(Task2,0,"Task2");
