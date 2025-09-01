@@ -1,6 +1,7 @@
 #include "os.h"
 #include "stm32f1xx_it.h"
 
+
 // Global variables
 TCB_t tcbs[MAXTHREADS];
 uint32_t stacks[MAXTHREADS][STACKSIZE];  
