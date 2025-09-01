@@ -157,7 +157,7 @@ PendSV_Handler
 
 PendSV_Exit
         BX      LR
-
+		
 PendSV_Error
         ; Stack corruption or invalid state detected
         LDR     R0, =0xDEADBEEF         ; Error signature
