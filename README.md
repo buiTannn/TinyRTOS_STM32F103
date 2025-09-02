@@ -54,7 +54,7 @@ void SysTick_Handler(void)
   /* USER CODE BEGIN SysTick_IRQn 0 */
 
   /* USER CODE END SysTick_IRQn 0 */
-  HAL_IncTick();
+
   /* USER CODE BEGIN SysTick_IRQn 1 */
   OS_TickHandler();  // Add this line
   /* USER CODE END SysTick_IRQn 1 */
@@ -122,7 +122,7 @@ int main(void)
   
   // Launch RTOS with 1000Hz tick rate (1ms per tick)
   OS_Launch(1000);
-
+}
 ```
 
 
