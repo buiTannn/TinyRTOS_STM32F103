@@ -131,11 +131,6 @@ int main(void)
   
 <img width="1192" height="871" alt="image" src="https://github.com/user-attachments/assets/fc2a2ea2-762c-40a2-bd5d-b19e637d208f" />
 
-- Use debugger to monitor task counters (`m`, `k` variables)
-- Check `RunPt->name` to see which task is currently running
-- Monitor `stack_overflow_count[]` array for stack overflow detection
-- Set breakpoints in tasks to verify execution
-
 
 ## Troubleshooting
 
