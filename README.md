@@ -17,7 +17,7 @@ A lightweight, preemptive Real-Time Operating System implementation for STM32F10
 - `os.h` - Header file with data structures and function prototypes  
 - `osasm.s` - ARM assembly code for context switching and startup
 
-### Key Functions
+###  Functions
 - `OS_Init()` - Initialize the operating system
 - `OS_AddThread()` - Add a new task to the system
 - `OS_Sleep()` - Put current task to sleep for specified ticks
